@@ -1,0 +1,51 @@
+.title{
+  margin-top: 0px;
+  float: left;
+}
+ul{
+  padding: 0px;
+  margin-top: 10px;
+  list-style: none;
+  text-align: right;
+}
+.headlink{
+  display: inline;
+  margin: 5px;
+}
+ .headlink a{
+   text-decoration: none;
+   color: black;
+ }
+ .headlink a:hover{
+   color: orange;
+   text-decoration: underline;
+ }
+ .clear{
+   clear: both;
+ }
+.storeimg{
+  width: 300px;
+  display: flex;
+}
+.stores{
+  width: 450px;
+  margin: 10px;
+}
+.stores a{
+  text-decoration: none;
+  color:black;
+}
+.tenpo{
+  display: flex;
+  flex-wrap: wrap;
+}
+/*detail用のCSS*/
+.headerdetail{
+  text-align: right;
+}
+.evaluation{
+  display: flex;
+}
+.userevaluation{
+  margin: 5px;
+}
